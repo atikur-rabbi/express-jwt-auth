@@ -1,0 +1,27 @@
+GET https://express-jwt-auth.atikurrabbi.repl.co/posts 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNjE2Mjk0NTg4LCJleHAiOjE2MTYyOTUxODh9.v5tgBZ1k9kXU-bro_W4grOsPpR7RLauhJXXETXac1IY
+
+###
+GET https://express-jwt-auth.atikurrabbi.repl.co
+
+###
+GET https://express-jwt-auth.atikurrabbi.repl.co/post1
+
+###
+GET https://express-jwt-auth.atikurrabbi.repl.co/tokens
+
+###
+POST https://express-jwt-auth.atikurrabbi.repl.co/login 
+Content-Type: application/json
+
+{
+"username": "Jim"
+}
+
+###
+POST https://express-jwt-auth.atikurrabbi.repl.co/token 
+Content-Type: application/json
+
+{
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNjE2Mjc0MzA3fQ.jUxFxTsKY8zJRkUfEsressZ7vdpzcn09fWOcsMELfmQ"
+}
